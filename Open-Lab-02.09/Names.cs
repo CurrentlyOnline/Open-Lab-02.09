@@ -4,9 +4,13 @@ namespace Open_Lab_02._09
 {
     public class Names
     {
-        public string ConcatName(string firstName, string lastName)
+        public string ConcatName(string firstName, string lastName )
         {
-            throw new NotImplementedException();
+            string meno;
+            meno = lastName + ", " + firstName;
+            return meno;
+            
+
         }
     }
 }
